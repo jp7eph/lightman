@@ -3,7 +3,7 @@
 
 import paho.mqtt.client as mqtt     # MQTTのライブラリをインポート
 
-import irrp_play
+import irrp_play                    # 赤外線送信のインポート
 
 topic_list = [("Topic1", 0), ("Topic2", 0)]
 
